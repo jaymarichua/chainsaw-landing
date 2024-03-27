@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Video from 'next-video'
-import chainsawVideo from '/videos/vid_chainsaw.mp4'
+import chainsawVideo from 'https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className={styles.center}>
         <Video src={chainsawVideo}/>
-        /* <video width="320" height="240" controls preload="none" autoPlay muted playsInline>
+        <video width="320" height="240" controls preload="none" autoPlay muted playsInline>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
         <track
         src="/path/to/captions.vtt"
@@ -23,7 +23,7 @@ export default function Home() {
         srcLang="en"
         label="English"
          />
-       </video> */
+       </video>
         <Image
           className={styles.logo}
           src="/next.svg"
