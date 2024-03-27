@@ -1,7 +1,5 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Video from 'next-video'
-import chainsawVideo from 'https://deschercheurs.s3.ap-southeast-2.amazonaws.com/vid_001.mp4'
 
 export default function Home() {
   return (
@@ -14,9 +12,16 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Video
-          src={chainsawVideo}
-        />
+      <video width="320" height="240" controls preload="none">
+      <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
+         <track
+        src="/path/to/captions.vtt"
+        kind="subtitles"
+        srcLang="en"
+        label="English"
+         />
+         Your browser does not support the video tag.
+        </video>
         <Image
           className={styles.logo}
           src="/next.svg"

@@ -1,0 +1,4 @@
+{
+  "https://deschercheurs.s3.ap-southeast-2.amazonaws.com/vid_001.mp4": { "integrity": "sha512-g2/amDHfhhLlYzvMBNGvzub2FBrcgqLr+WbPKDxngVL6P5/TAPelFG7Ykh2PAgLfCYoz8UqqIzBZALv9tBiX6g==", "contentType": "video/mp4" },
+  "version": 1
+}
