@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Video from 'next/video'
+import Video from 'next-video'
 import chainsawVideo from 'https://deschercheurs.s3.ap-southeast-2.amazonaws.com/vid_001.mp4'
 
 export default function Home() {
