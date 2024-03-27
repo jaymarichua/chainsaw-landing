@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className={styles.center}>
         <Video
-          src={ChainsawVideo}
+          src={chainsawVideo}
         />
         <Image
           className={styles.logo}
