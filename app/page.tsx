@@ -1,5 +1,7 @@
 import Image from 'next/image'
+import Video from 'next/video'
 import styles from './page.module.css'
+import ChainsawVid from 'https://deschercheurs.s3.ap-southeast-2.amazonaws.com/vid_001.mp4'
 
 export default function Home() {
   return (
@@ -12,6 +14,16 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
+        <Video
+          src={ChainsawVid}
+          poster="/chainsaw.jpg"
+          controls
+          autoPlay
+          loop
+          muted
+          playsInline
+          className={styles.video}
+        />
         <Image
           className={styles.logo}
           src="/next.svg"
