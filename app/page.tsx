@@ -12,7 +12,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <video width="320" height="240" controls preload="none" autoplay muted>
+        <video width="320" height="240" controls preload="none" autoPlay muted playsInline>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
         <track
         src="/path/to/captions.vtt"
