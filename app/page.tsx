@@ -12,17 +12,14 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-      <video width="320" height="240" controls preload="none">
-      <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
-         <track
+        <video width="320" height="240" controls preload="none" autoplay muted>
+        <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
+        <track
         src="/path/to/captions.vtt"
         kind="subtitles"
         srcLang="en"
         label="English"
-        autoplay
-        muted
          />
-         Your browser does not support the video tag.
         </video>
         <Image
           className={styles.logo}
