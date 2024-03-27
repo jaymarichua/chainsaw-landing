@@ -19,6 +19,8 @@ export default function Home() {
         kind="subtitles"
         srcLang="en"
         label="English"
+        autoplay
+        muted
          />
          Your browser does not support the video tag.
         </video>
