@@ -40,7 +40,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
+          <p>Review documentation for Amplify's code-first DX (Gen 2). (Quick test for website live updates.))</p>
         </a>
 
         <a
