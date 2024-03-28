@@ -10,7 +10,6 @@ export default function Home() {
           <code className={styles.code}>Web Chainsaw</code>
         </p>
       </div>
-      <div className={styles.background-video}>
         <video preload="none" autoPlay muted playsInline>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
         <track
@@ -20,7 +19,6 @@ export default function Home() {
         label="English"
          />
        </video>
-      </div>
       <div className={styles.center}>
         <Image
           className={styles.logo}
