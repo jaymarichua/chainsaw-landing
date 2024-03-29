@@ -10,7 +10,7 @@ export default function Home() {
           <code className={styles.code}>Web Chainsaw</code>
         </p>
       </div>
-        <video preload="none" autoPlay muted playsInline>
+        <video preload="none" autoPlay muted playsInline loop>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
         <track
         src="/path/to/captions.vtt"
@@ -48,7 +48,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Review documentation for Amplify's code-first DX (Gen 2). (Quick test for website live updates.))</p>
+          <p>Review documentation for Amplify's code-first DX (Gen 2). (Quick test for website live updates.)</p>
         </a>
 
         <a
