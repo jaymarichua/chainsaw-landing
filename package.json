@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mux/mux-player": "^2.4.1",
     "aws-amplify": "latest",
     "next": "13.5.4",
     "next-video": "^0.16.2",
