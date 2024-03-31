@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import MuxPlayer from '@mux/mux-player-react'
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
           Welcome to&nbsp;
           <code className={styles.code}>Web Chainsaw</code>
         </p>
+        <MuxPlayer
+          playbackId="YNej02kDxZR7qYoJT1CR34ztJSuIeQt92V8CrEcKohgM"
+        />
       </div>
         <video preload="none" autoPlay muted playsInline loop>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
