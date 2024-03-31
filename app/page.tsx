@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Welcome to&nbsp;
-          <code className={styles.code}>Web Chainsaw</code>
+          <code className={styles.code}>Web Chainsaw. The viewer shows a 'Network Error' when there is no live video currently ongoing.</code>
         </p>
         <MuxPlayer
           playbackId="QFoY7Ti3FqQ00S62ZD02FIPS6PIArN1Rnva7XrFWaYCQg"
@@ -21,6 +21,12 @@ export default function Home() {
             viewer_user_id: "12345",
           }}
         />
+        <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+        <mux-player
+          playback-id="QFoY7Ti3FqQ00S62ZD02FIPS6PIArN1Rnva7XrFWaYCQg"
+          metadata-video-title="Test video title"
+          metadata-viewer-user-id="user-id-007"
+        ></mux-player>
       </div>
         <video preload="none" autoPlay muted playsInline loop>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
