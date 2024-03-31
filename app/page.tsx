@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import dynamic from 'next/dynamic'
-
-const MuxPlayer = dynamic(() => import('@mux/mux-player-react'), { ssr: false });
+import { useEffect, useState } from 'react'
+import MuxPlayer from '@mux/mux-player-react';
 
 export default function Home() {
   return (
