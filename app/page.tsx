@@ -14,7 +14,7 @@ export default function Home() {
           <code className={styles.code}>Web Chainsaw</code>
         </p>
         <MuxPlayer
-          playbackId="YNej02kDxZR7qYoJT1CR34ztJSuIeQt92V8CrEcKohgM"
+          playbackId="QFoY7Ti3FqQ00S62ZD02FIPS6PIArN1Rnva7XrFWaYCQg"
           metadata={{
             video_id: "chainsaw",
             video_title: "Chainsaw",
