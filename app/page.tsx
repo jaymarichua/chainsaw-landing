@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import dynamic from 'next/dynamic';
+import dynamic from 'next/dynamic'
 
 const MuxPlayer = dynamic(() => import('@mux/mux-player-react'), { ssr: false });
 
@@ -14,6 +14,11 @@ export default function Home() {
         </p>
         <MuxPlayer
           playbackId="YNej02kDxZR7qYoJT1CR34ztJSuIeQt92V8CrEcKohgM"
+          metadata={{
+            video_id: "chainsaw",
+            video_title: "Chainsaw",
+            viewer_user_id: "12345",
+          }}
         />
       </div>
         <video preload="none" autoPlay muted playsInline loop>
