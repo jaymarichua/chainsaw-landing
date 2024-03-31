@@ -1,9 +1,9 @@
+'use client'
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import { useEffect, useState } from 'react'
 import MuxPlayer from '@mux/mux-player-react'
-
-'use client'
 
 export default function Home() {
   return (
