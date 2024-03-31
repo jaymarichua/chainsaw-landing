@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import styles from './page.module.css'
-import { useEffect, useState } from 'react'
 import MuxPlayer from '@mux/mux-player-react'
 
 export default function Home() {
@@ -21,12 +20,6 @@ export default function Home() {
             viewer_user_id: "12345",
           }}
         />
-        <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
-        <mux-player
-          playback-id="QFoY7Ti3FqQ00S62ZD02FIPS6PIArN1Rnva7XrFWaYCQg"
-          metadata-video-title="Test video title"
-          metadata-viewer-user-id="user-id-007"
-        ></mux-player>
       </div>
         <video preload="none" autoPlay muted playsInline loop>
         <source src="https://webchainsaw.s3.ap-southeast-2.amazonaws.com/vid_chainsaw.mp4" type="video/mp4" />
