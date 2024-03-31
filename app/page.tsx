@@ -13,7 +13,7 @@ export default function Home() {
           <code className={styles.code}>Web Chainsaw. The viewer shows a 'Network Error' when there is no live video currently ongoing.</code>
         </p>
         <MuxPlayer
-          playbackId="QFoY7Ti3FqQ00S62ZD02FIPS6PIArN1Rnva7XrFWaYCQg"
+          playbackId="XoDANMO3TCwgDaAG46G1p00IKl3ImIKzDTRByVlDpt00I"
           metadata={{
             video_id: "chainsaw",
             video_title: "Chainsaw",
